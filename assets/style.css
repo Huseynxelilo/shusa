@@ -1,0 +1,830 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 300rem;
+}
+
+.header{
+    align-items: center;
+    background-color: #6b6368;
+    background-image: url(/image/image1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 65rem;
+    width: 144rem;
+}
+
+.shusha { 
+    position: absolute;
+    margin-left: 15rem;
+    width: 80%;
+}
+
+.shusha h1{
+    color: white;
+    margin-top: 20rem;
+    margin-left: 1rem;
+    font-size: 12rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shusha .tez-efec{
+    margin-left: 1.8rem;
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shusha p {
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.shusha .group{
+    background-color: #b80370;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    padding-top: 20px;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    width: 22rem;
+    height: 4rem;
+}
+
+.vector{
+    display: flex;
+    justify-content: right;
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+
+.vector .svg {
+   margin-inline: 20px;
+   width: 18px; 
+}
+
+.rectangle{
+    background-color: #b80370;
+    height: 7vh;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+
+
+.rectangle .tel{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    position: absolute;
+    left: 8rem;
+    top: 1.6rem;
+}
+
+
+.rectangle .lorem1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: absolute;
+    left: 22rem;
+    top: 1.8rem;
+}
+
+.rectangle .icone{
+    position: absolute;
+    right: 5rem;
+    top: 1.8rem;
+}
+
+.icone a {
+    color: white;
+    margin-inline: 10px; 
+    font-size: 1.6rem;
+}
+
+.rectangle-1{
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px rgb(94, 92, 92);
+    display: flex;   
+    position: fixed;
+    z-index: 1;
+    top: 1; 
+    left: 16rem;
+    margin-top: 50px;
+    height: 8rem;
+    width: 100rem;
+}
+
+.rectangle-1 img{
+    height: 3.7rem;
+    width: 14rem;
+    margin-top: 2.4rem;
+    margin-left: 4rem;
+}
+
+.rectangle-1 .ana-shf  {
+    margin-left: 30px;
+    padding-top: 2.8rem;
+    text-align: center;
+    width: 60%;
+}
+
+.ana-shf a{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: unset;
+    font-weight: 400;
+    color: black;
+    margin-inline: 20px;
+}
+
+.rectangle-1 .elaqe{
+    background-color: #b80370;
+    text-align: center;
+    margin-top: 1.6rem;
+    padding-top: 1.5rem;
+    height: 4.7rem;
+    width: 14rem;
+}
+
+.elaqe p{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.rectangle-2{
+    padding-top: 10rem;
+}
+
+.home{
+    width: 120rem;
+    height: 24rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .Haqqımızda{
+    width: 25rem;
+    margin-left: 10rem;
+}
+
+.Haqqımızda .hqmzda{
+    color: #b80370;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+.Haqqımızda .biz-kimik{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+}
+
+
+.lorem{
+    margin-top: 4rem;
+    width: 50rem;
+}
+
+.lorem .ipsum{
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-2{
+    background-image: url(/image/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    width: 128rem;
+    height: 30rem;
+}
+
+.lorem2{
+    padding-top: 5rem;
+    margin: 0 auto;
+    width: 95rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.rectangle-3{
+    width: 144rem;
+    height: 85rem;
+    position: relative;
+    z-index: 0;
+}
+
+.home1{
+    margin-left: 10rem;
+    margin-top: 5rem;
+    width: 40rem;
+}
+
+.home1 .xidmet{
+    color: #b80370;
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+
+.home1 .biz-n-edirik{
+    font-size: 5rem;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.card1{
+box-shadow: 0 0 1.5rem rgb(119, 119, 119, 0.25);
+background-color: white;
+position: absolute;
+top: 15rem;
+left: 10rem;
+height: 45rem;
+width: 30rem;
+}
+
+.image-3{
+    background-image: url(/image/image4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.card1 .hava-yolu{
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.lorem3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 90%;  
+}
+
+.card2{
+    box-shadow: 0 0 1.5rem rgb(119, 119, 119, 0.25);
+    background-color: white;
+    position: absolute;
+    top: 10rem;
+    left: 42rem;
+    height: 45rem;
+    width: 30rem;  
+}
+
+.card2 .image-4{
+    background-image: url(/image/image5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.card2 .deniz-dasimaci{
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.card3{
+    box-shadow: 0 0 1.5rem rgb(119, 119, 119, 0.25);
+    background-color: white;
+    position: absolute;
+    left: 74rem;
+    top: 5rem;
+    height: 45rem;
+    width: 30rem;   
+}
+
+.card3 .image-5{
+    background-image: url(/image/image6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;  
+}
+
+.card3 .quru-yol{
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center; 
+}
+
+.card4{
+    box-shadow: 0 0 1.5rem rgb(119, 119, 119, 0.25);
+    background-color: white;
+    position: absolute;
+    left: 106rem;
+    top: 2rem;
+    height: 45rem;
+    width: 30rem;     
+}
+
+.card4 .demiryol{
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;  
+}
+
+.card4 .image-6 {
+    background-image: url(/image/image7.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;   
+}
+
+.card5{
+    box-shadow: 0 0 1.5rem rgb(119, 119, 119, 0.25);
+    background-color: white;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    left: 42rem;
+    top: 57rem;
+    height: 45rem;
+    width: 30rem;      
+}
+
+.card5 .image-7{
+    background-image: url(/image/image8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;   
+}
+
+.card5 .laiheler{
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;  
+}
+
+.card6{
+    box-shadow: 0 0 1.5rem rgb(119, 119, 119, 0.25);
+    background-color: white;
+    position: absolute;
+    left: 74rem;
+    top: 52rem;
+    height: 45rem;
+    width: 30rem;       
+}
+
+.card6 .image-8{
+    background-image: url(/image/image9.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem; 
+}
+
+.card6 .transit{
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;   
+}
+
+.card7{
+    box-shadow: 0 0 1.5rem rgb(119, 119, 119, 0.25);
+    background-color: white;
+    position: absolute;
+    left: 106rem;
+    top: 50rem;
+    height: 45rem;
+    width: 30rem;     
+}
+
+.card7 .image-9{
+    background-image: url(/image/image10.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem; 
+}
+
+.card7 .bulk-dasimaci{
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;   
+}
+
+.rectangle-4{
+    padding-top: 5rem;
+    background-image: url(/image/bacgraund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 144rem;
+    height: 100rem;
+}
+
+.home-2{
+    width: 60rem;
+    margin-top: 30rem;
+    margin-left: 10rem;
+}
+
+.home-2 .prinsp{
+   color: white;
+   font-size: 1.4rem;
+   font-weight: 300;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic; 
+}
+
+.home-2 .bizim-misya{
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-left: 3rem;
+    height: 50rem;
+}
+
+.cards .cart-1{
+    margin-inline: 20px;
+    background-color: white;
+    box-shadow: 0 0 1.5rem #d83873;
+    height: 45rem;
+    width: 41rem;
+}
+
+.cart-1 .ferdi-yanasma{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b80370;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.lorem-4{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    width: 30rem;
+    height: 16rem;
+}
+
+.vector1{
+    background-image: url(/image/Group.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16rem;
+    height: 12rem;
+    margin-top: 1.5rem;
+    margin-left: 24rem;
+}
+
+.cart-2{
+    margin-inline: 20px;
+    background-color: white;
+    box-shadow: 0 0 1.5rem #d83873;
+    height: 45rem;
+    width: 41rem;
+}
+
+.cevik{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b80370;
+    margin-left: 5rem;
+    margin-top: 10rem;  
+}
+
+.vector2{
+  background-image: url(/image/Vector.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 9.1rem;
+  height: 9.6rem;
+  margin-top: 4rem;
+  margin-left: 31rem;  
+}
+
+.cart-3{
+    margin-inline: 20px;
+    background-color: white;
+    box-shadow: 0 0 1.5rem #d83873;
+    height: 45rem;
+    width: 41rem;   
+}
+
+.daimi{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b80370;
+    margin-left: 5rem;
+    margin-top: 10rem;     
+}
+
+.vector3{
+  background-image: url(/image/Vector1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 16rem;
+  height: 9.6rem;
+  margin-top: 4rem;
+  margin-left: 23rem;    
+}
+
+.rectangle-5{
+    height: 70rem;
+    margin-top: 15rem;
+}
+.home-3{
+    width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.home-4{
+    width: 40rem;
+}
+
+.emek{
+  font-size: 1.4;
+  color: #b80370;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.bizim-komando{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+
+}
+
+.lorem-ipsum{
+    width: 50rem;
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.image-3-b{
+    background-image: url(/image/image-12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10rem;
+    margin-top: 7rem;
+    height: 30rem;
+    width: 128rem;
+}
+
+.rectangle-6{
+    height: 30rem;
+    display: flex;
+}
+
+.home-5{
+    width: 50rem;
+    height: 30rem;
+    margin-left: 8rem;
+}
+
+.elaqe-1{
+    color: #b80370;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.bize-yaz{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-family: 600;
+}
+
+.lorem-5{
+    margin-top: 2rem;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.home-6{
+  background-color: white;
+  height: 50rem;
+  width: 73rem;
+  margin-top: 3rem;
+  box-shadow: 0 0 1.5rem rgb(119, 119, 119, 0.25); 
+  margin-left: 4rem;
+  display: flex;
+  justify-content: center; 
+}
+
+.tegler{
+    margin-top: 10rem;
+    height: 30rem;
+    width: 50rem;
+}
+
+.lorem-6{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+
+
+.teg a{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    display: block;
+    margin-top: 3rem;    
+}
+
+.logo-link{
+    margin-top: 3rem;
+}
+
+.logo-link a{
+  color: #b80370;
+  font-size: 2.6rem;
+  margin-inline: 20px; 
+}
+
+.rectangle-7{
+    padding-top: 1rem;
+    height: 97rem;
+    background-image: url(/image/bacgraund-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-7{
+background-color: white;
+height: 21rem;
+width: 111rem;
+margin: 0 auto;
+margin-top: 30rem;
+display: flex;
+}
+
+.home-7 img{
+    height: 4.5rem;
+    width: 18rem;
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+
+.teg-1{
+   margin-left: 13rem;
+   margin-top: 6rem;
+}
+
+.teg-1 a{
+    display: block;
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.teg-2{
+    margin-top: 7rem;
+    margin-left: 10rem;
+}
+
+.teg-2 p{
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.teg-2 a{
+    display: block;
+    color: #b80370;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.teg-3{
+    margin-top: 6rem;
+    margin-left: 10rem;  
+}
+
+.teg-3 a{
+    color: #b80370;
+    font-size: 2.6rem;
+    display: block;
+    margin-top: 1rem;
+}
+.home-8{
+    margin-top: 5rem;
+    height: 45rem;
+    width: 149rem;
+    background-image: url(/image/bacgraund-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .rectangle{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
